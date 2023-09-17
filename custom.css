@@ -1,0 +1,152 @@
+body {
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
+}
+head {
+  background-color: #ccc;
+}
+h2 {
+  color: #1098ad;
+  padding: 10px;
+  margin: 0;
+  background-color: #f1efef;
+}
+.navbar {
+  background-color: #f1efef;
+  padding: 10px;
+}
+
+.nav-link {
+  margin-right: 20px;
+}
+
+h1,
+h3,
+a {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:hover {
+  color: #0d525d;
+}
+h1 {
+  text-align: center;
+}
+
+th {
+  background-color: #1098ad;
+  color: white;
+}
+
+table {
+  border: #f0f0f0;
+}
+.empty-row {
+  background-color: #1098ad;
+  color: white;
+}
+
+.even-row {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  border: none;
+  color: grey;
+}
+
+.radio-group label {
+  display: inline-block;
+  margin-right: 2px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+}
+
+input[type="checkbox"] {
+  display: flex;
+  align-items: center;
+}
+
+input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+}
+
+label {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.checkbox-container {
+  display: block;
+  text-align: center;
+}
+input[type="checkbox"] {
+  width: 100%;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+fieldset {
+  border: none;
+  justify-content: baseline;
+}
+.login-container,
+.register-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.login-register-title {
+  margin: 0;
+  text-align: center;
+}
+
+tr-ijo {
+background-color: #1098ad;
+}
+
+.fieldset-h3 {
+  margin: 0;
+  text-align: center;
+}
+
+b {
+  color: #1098ad;
+}
+
+button[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  padding: 7px 20px;
+  border: none;
+  background-color: #1098ad;
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #157786;
+}

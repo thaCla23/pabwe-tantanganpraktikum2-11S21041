@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Praktikum PABWE</title>
+    <link rel="stylesheet" type="text/css" href="custom.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6483689ab6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>&#9742; Contact Us</h1>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="challenges.html">Challenges</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="login.html">Login</a>
+      </nav>
+    </header>
+
+    <hr />
+
+    <main>
+      <form>
+        <table class="table" cellpadding="5">
+          <caption>
+            <h2 class="hub">Hubungi Kami</h2>
+          </caption>
+          <tr>
+            <td><label for="name">Nama Lengkap</label></td>
+          </tr>
+          <tr>
+            <td><input type="text" id="name" name="name" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">Alamat Email</label></td>
+          </tr>
+          <tr>
+            <td><input type="email" id="email" name="email" /></td>
+          </tr>
+          <tr>
+            <td><label for="kategori">Kategori</label></td>
+          </tr>
+          <tr>
+            <td>
+              <input type="radio" id="report" name="kategori" value="report" />
+              <label for="report">Laporan</label>
+              <input
+                type="radio"
+                id="feedback"
+                name="kategori"
+                value="feedback"
+              />
+              <label for="feedback">Masukkan</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="message">Pesan</label></td>
+          </tr>
+          <tr>
+            <td>
+              <textarea id="message" name="message" rows="5"></textarea>
+            </td>
+          </tr>
+          <tr align="center">
+            <td colspan="2">
+              <input
+                type="checkbox"
+                id="verification"
+                name="verification"
+                value="1"
+                required
+              />
+              <label for="verification">Konfirmasi Tindakan</label>
+            </td>
+          </tr>
+          <tr align="center">
+            <td colspan="2">
+              <input type="submit" value="Kirim" />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><hr /></td>
+          </tr>
+        </table>
+      </form>
+    </main>
+  </body>
+</html>
